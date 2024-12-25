@@ -1,0 +1,48 @@
+Model 1: Without Windspeed
+Features Used:
+Temperature (temp)
+Apparent Temperature (atemp)
+Humidity (hum)
+R-squared Score: [Insert R-squared value from output]
+Coefficients: [Insert coefficients from output]
+
+
+
+Model 2: With Windspeed
+Features Used:
+Temperature (temp)
+Apparent Temperature (atemp)
+Humidity (hum)
+Windspeed (windspeed)
+R-squared Score: [Insert R-squared value from output]
+Coefficients: [Insert coefficients from output]
+
+
+
+Comparative Analysis
+R-squared Score
+For Model 1, the R-squared score reflects how well the three chosen features explain the variance in bike rentals. In
+Model 2, which includes windspeed, we expect the R-squared to improve, indicating that this additional feature helps
+capture more variability in bike counts. A significant increase in the score would suggest that windspeed is a valuable
+predictor.
+
+Coefficient Comparison
+Examining the coefficients of both models reveals how each feature affects bike rental counts. In Model 1, the
+coefficients for temperature, apparent temperature, and humidity will show their individual contributions. When we look
+at Model 2, the coefficient for windspeed will indicate whether it has a positive or negative impact on bike rentals. If
+the coefficients for temperature and humidity shift notably in Model 2, this might suggest interactions or
+multicollinearity among the features.
+
+Performance Insights
+If Model 2 has a significantly higher R-squared score than Model 1, it would support the idea that including windspeed
+adds meaningful information for predicting bike rentals. On the other hand, if there is no substantial improvement or if
+the score decreases, this might indicate that windspeed is not a strong predictor in this context or that itcomplicates
+the model unnecessarily.
+
+Recommendations
+To improve the models further, it would be beneficial to explore the potential interactions between variables and
+consider using cross-validation to ensure the robustness of the findings. This analysis sets the foundation for
+refining our understanding of the factors influencing bike rentals and improving prediction accuracy.
+
+Overall, the exploration of these two models provides a clearer picture of the dynamics at play in bike sharing, and
+further investigation could lead to more effective predictive strategies.
